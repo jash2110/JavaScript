@@ -10,7 +10,7 @@ accountId = 2  // not allowed
 accountEmail = "hc@hc.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
-
+  
 console.log(accountId);
 
 /*

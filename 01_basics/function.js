@@ -7,7 +7,7 @@
 
 let name = "jash"
 let age = 18
-
+     
 console.log(name);
 console.log(typeof "jash");
 console.log(typeof age);
