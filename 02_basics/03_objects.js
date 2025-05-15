@@ -30,3 +30,10 @@ console.log(Obj.greet())
 console.log(Obj.greetTwo())
 
 console.log(Obj)
+// console.log(.toString())
+
+let empty = {
+    name: "a2z"
+}
+const newObj = empty
+console.log(newObj)
