@@ -11,14 +11,14 @@ const object = {
 // console.log(object.email.isDotCom);
 
 const one = {1: "A", 2: "B"}
-console.log(one)
-const two = {3: "C", 4: "D"}
-console.log(two)
+// console.log(one)
+const two = {2: "C", 4: "D"}
+// console.log(two)
 const three = Object.assign({}, one, two)    // //{1: "A", 2: "C", 4: "D"} 
 
-console.table(three)                     // {1: "A", 2: "B", 3:"C", 4: "D"}
-console.table(one);                      // {1: "A", 2: "B"}
-console.log(three === one)               // false
+// console.table(three)                     // {1: "A", 2: "B", 3:"C", 4: "D"}
+// console.table(one);                      // {1: "A", 2: "B"}
+// console.log(three === one)               // false
 
 
 const users = {
@@ -32,7 +32,7 @@ const users = {
 // console.log(users)
 
 const admin = {
-    id1: 02,
+    id1: 2,
     name1: "efg"
 }
 
@@ -42,4 +42,57 @@ const admin = {
 // console.log(admin)
 
 const app = {...users, ...admin}
-console.log(app);
+// console.log(app);
+
+const company = {}
+
+company.name = "JVM"
+company.id = "23fgv"
+
+
+// console.log(typeof company);
+
+// console.log(company);
+
+
+
+const obj1 = {
+    name: "abcd",
+    age: 30
+}
+
+const obj2 = {
+    name1: "efgh",
+    age1: 21,
+    city: "rajkot",
+    state: "gujarat"
+}
+
+const obj3 = Object.assign({}, obj1, obj2)
+// console.log(obj1);
+// console.log(obj3);
+
+
+
+const newUser = [
+    {
+        name: "Binod",
+        age: null
+    },
+    {
+        name: "Suman",
+        age: 50
+    },
+    {
+        name: "Kanta",
+        age: 70
+    }
+]
+
+console.log(newUser[1].name);
+
+console.log(Object.keys(newUser));
+console.log(Object.values(newUser));
+console.log(Object.entries(newUser));
+
+console.log(typeof newUser);
