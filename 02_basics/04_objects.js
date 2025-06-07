@@ -108,4 +108,10 @@ const {name: nm} = obj;
 console.log(nm);
 
 const {code: cd} = obj;
-console.log(cd);
+console.log(cd); 
+
+[
+    {},
+    {},
+    {}
+]
