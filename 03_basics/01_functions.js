@@ -17,3 +17,37 @@ function logIn(name){
 }
 console.log(logIn("jash"));
 
+
+
+function cartItems(...number){
+    return number
+}
+
+// console.log(cartItems(500, 200, 100))
+
+const details = {
+    name: "jash",
+    price: 199
+}
+
+function userDetails(obj){
+    console.log(`Name: ${obj.name}, Price: ${obj.price}`);
+}
+
+// userDetails(details);
+
+userDetails({
+    name: "jash",
+    price: 199
+})
+
+const array = [1, 2, 3, 4, 5];
+
+function getElement(myArray) {
+    return myArray[2];
+}
+
+// console.log(getElement(array));
+
+
+console.log(getElement([1, 2, 3, 4, 5]));
