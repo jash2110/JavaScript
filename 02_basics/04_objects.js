@@ -89,10 +89,23 @@ const newUser = [
     }
 ]
 
-console.log(newUser[1].name);
+// console.log(newUser[1].name);
 
-console.log(Object.keys(newUser));
-console.log(Object.values(newUser));
-console.log(Object.entries(newUser));
+// console.log(Object.keys(newUser));
+// console.log(Object.values(newUser));
+// console.log(Object.entries(newUser));
 
-console.log(typeof newUser);
+// console.log(typeof newUser);
+// console.log(newUser[1].hasOwnProperty('name'));
+
+const obj = {
+    code: 147,
+    name: "JS",
+    fees: 200
+}
+
+const {name: nm} = obj;
+console.log(nm);
+
+const {code: cd} = obj;
+console.log(cd);
