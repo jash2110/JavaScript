@@ -5,13 +5,13 @@ const seeObj = {
 }
 
 for (const key in seeObj) {
-    //console.log(`${key} stands for ${seeObj[key]}`);
+    console.log(`${key} stands for ${seeObj[key]}`);
 }
 
 const programming = ["js", "cpp", "rb"];
 
 for (const key in programming) {
-   // console.log(programming[key]);
+   console.log(programming[key]);
     
 }
 
